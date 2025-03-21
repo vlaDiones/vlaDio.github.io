@@ -7,30 +7,30 @@
 .content {
     max-width: 980px;
     display: flex;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .left-side {
     width: 25%;
+    height: 100vh;
     background-color: #3a5e90;
-    display:  inline-block;
-    padding: 20px;
+    display: block;
+    padding: 15px;
     color: White;
 }
 .right-side {
     width: 75%;
     display:  inline-block;
-    padding: 20px;
+    padding: 15px;
 }
-.image1 {
-    width: 170px;
-    height: 170px;
+.Pfp {
+    width: 100%;
+    aspect-ratio: 1/1;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 600px;
     margin: 0 auto 15px;
 }
 img {
-    display: block;
-    width: 110%;
+    width: 105%;
     object-position: left;
 }
 div.left-side hr {
@@ -42,20 +42,42 @@ div.right-side hr {
     border: 1px solid;
 }
 a {
-    color: white;
+    color: inherit;
     font-weight: bold;
     text-decoration: none;
 }
 h2 {
-    font-size: 20px;
+    font-size: 25px;
 }
 h3 {
-    font-size: 15px;
+    font-size: 20px;
 }
-p, li, hr, i, h1, h2{
-    margin: 0 0 15px;
+p, li{
+    margin: 0 0 10px;
     list-style-type: none
 }
+.right-side div{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin: 10px 0;
+}
+hr {
+    margin: 10px 0;
+}
+button a{
+    margin: auto;
+}
+button {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 5px 0;
+    background: #3a5e90;
+    color: white;
+    border: double 2px #000;
+    border-radius: 8px;
+}
+
 .Language p,.right-side span{
     display: flex;
     justify-content: space-between;
