@@ -4,3 +4,59 @@
     box-sizing: border-box;
     font-family: "Arial";
 }
+.content {
+    max-width: 980px;
+    display: flex;
+    margin: 0px auto;
+}
+.left-side {
+    width: 25%;
+    background-color: #3a5e90;
+    display:  inline-block;
+    padding: 20px;
+    color: White;
+}
+.right-side {
+    width: 75%;
+    display:  inline-block;
+    padding: 20px;
+}
+.image1 {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+img {
+    display: block;
+    width: 110%;
+    object-position: left;
+}
+div.left-side hr {
+    width: 125%;
+    border: 1px solid;
+}
+div.right-side hr {
+    width: 100%;
+    border: 1px solid;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 15px;
+}
+p, li, hr, i, h1, h2{
+    margin: 0 0 15px;
+    list-style-type: none
+}
+.Language p,.right-side span{
+    display: flex;
+    justify-content: space-between;
+}
